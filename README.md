@@ -1,15 +1,38 @@
-# FocusLock ⏱️
+# FocusLock - AI Study Focus Timer
 
-## Project Description
-FocusLock is a simple productivity timer built with Python and Streamlit.  
-It helps users stay focused by blocking distractions and tracking study sessions.
+## 📌 Project Introduction
+FocusLock is a web-based study focus timer built with Streamlit.
+It helps users manage study sessions, track time, and visualize productivity.
 
-## Features
-- Focus timer (Pomodoro style)
-- Study session tracking
-- Data saved locally (CSV)
-- Progress visualization
+---
 
-## How to Run
+## ✨ Key Features
+- Start / Stop focus timer
+- Study session recording
+- Data visualization using charts
+- Simple and clean UI
+- Cloud deployment (accessible via link)
+
+---
+
+## 🤖 AI Tools Used
+- ChatGPT (used for coding assistance, debugging, and deployment support)
+- AI helped in:
+  - fixing Streamlit deployment issues
+  - generating Python code structure
+  - resolving environment errors
+
+---
+
+## 🛠 Tech Stack
+- Python
+- Streamlit
+- Pandas
+- Matplotlib
+
+---
+
+## 🚀 How to Run Locally
 ```bash
+pip install -r requirements.txt
 streamlit run app.py
